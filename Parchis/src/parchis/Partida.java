@@ -248,8 +248,8 @@ public class Partida {
 		}
 		// Caso general de cambiar jugador y lanzar dados
 		else {
-			dados= lanzar_dados();
 			indJugador= obtener_sig_jugador_activo(indJugador);
+			dados= lanzar_dados();
 		}
 		
 		fase= FasePartida.ELEGIR_FICHA;
